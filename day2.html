@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <link rel="icon" href="C:\Users\hemku\OneDrive\Desktop\HTML&CSS\form.png">
+</head>
+<body>
+    <form>
+        <input type="email" placeholder="Email Id" required>
+        <br><br>
+        <input type="number" min="1" max="60" placeholder="Roll Number:" required>
+        <input type="text" placeholder="Name" required>
+        <br><br>
+        Date of Birth:
+        <input type="date" required>
+        <br><br>
+        Gender:  
+        Male<input type="radio" name="gender">
+        Female<input type="radio" name="gender">
+        <br><br>
+        <input type="text" required pattern="^[789]\d{9}$" minlength="10" maxlength="10" placeholder="Mobile Number">
+        <br><br>
+        <textarea cols="15" rows="4" placeholder="Enter Address"></textarea>
+        <br><br>
+        Country:
+        <input type="text" readonly placeholder="India">
+        <br><br>
+        <select>
+            <option>Current Academic Year</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+        </select>
+        <br><br>
+        <input type="password" placeholder="Enter Code" minlength="5" maxlength="8" required>
+        <br><br>
+        <input type="date">
+        <br><br>
+        <input type="radio" checked> I hereby declare that the information given above is true to the best of my knowledge and belief
+        <br><br>
+        I am not a robot <input type="checkbox">
+        <br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </form>
+</body>
+</html>
