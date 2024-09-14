@@ -1,0 +1,31 @@
+.one {
+    height: 100px;
+    width : 100px;
+
+    color : #9bc472; 
+    font-family : segoe ui;
+    background-color : #cdf6db;
+
+    padding : 20px;
+    border : 50px solid #f5beb4;
+
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.two {
+    height: 100px;
+    width : 100px;
+
+    color : #008080; 
+    font-family : segoe ui;
+    background-color : #3dcccc;
+    
+    padding : 20px;
+    border : 50px dashed #001313;
+
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
